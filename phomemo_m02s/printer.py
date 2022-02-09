@@ -37,7 +37,7 @@ class BluSerial:
 
 class Printer:
     # Figured out empirically
-    MAX_WIDTH = 576
+    MAX_WIDTH = 384
 
     def __init__(self, port_name="/dev/tty.M02S", mac=None):
         if mac is not None:
